@@ -1,0 +1,37 @@
+.candidate  {
+    background: var(--color-gray-0);
+    text-align: center;
+    border-radius: var(--radius-3);
+    overflow: hidden;
+    padding-bottom: 1.2rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+    border:0.5rem solid var(--color-gray-0);
+    transition: var(--transition);
+    
+}.candidate__image{
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-bottom: 1.2rem;
+    width: 100%;
+    
+}
+.candidates__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+
+}
+
+Procedures
+client
+PS C:\Users\psaim\OneDrive\Desktop\P$MK L4 CSE-D\E-Voting> cd VoteX
+PS C:\Users\psaim\OneDrive\Desktop\P$MK L4 CSE-D\E-Voting\VoteX> cd client
+PS C:\Users\psaim\OneDrive\Desktop\P$MK L4 CSE-D\E-Voting\VoteX>client> npm start
+if port is already running then kill it and re start it :
+netstat -ano | findstr :3000
+taskkill /PID <PID> /F
+for example 
+PS C:\Users\psaim\OneDrive\Desktop\P$MK L4 CSE-D\E-Voting\VoteX\client> netstat -ano | findstr :3000
+  TCP    0.0.0.0:3000           0.0.0.0:0              LISTENING       17644
+  taskkill /PID 17644 /F

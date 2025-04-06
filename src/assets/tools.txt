@@ -1,0 +1,2 @@
+PS C:\Users\psaim\OneDrive\Desktop\P$MK L4 CSE-D\Online Voting System\VoteX\client> npx create-react-app@latest .
+PS C:\Users\psaim\OneDrive\Desktop\P$MK L4 CSE-D\Online Voting System\VoteX\client> npm start
